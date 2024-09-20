@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student</title>
+    <link rel="stylesheet" href="addstudent.css">
+</head>
+<body>
+    <div id="addStudentScreen" class="add-student-screen">
+        <h2 class="title">Add Student</h2>
+        <form id="addStudentForm" class="form">
+            <input type="text" id="firstName" placeholder="First Name" class="input">
+            <input type="text" id="lastName" placeholder="Last Name" class="input">
+            <input type="text" id="cnic" placeholder="CNIC" class="input">
+            <input type="email" id="studentEmail" placeholder="Email" class="input">
+            <input type="password" id="studentPassword" placeholder="Password" class="input">
+            <button id="addStudentBtn" class="btn">Add Student</button>
+        </form>
+        <p id="addStudentError" class="error-message"></p>
+    </div>
+    <script type="module" src="./addstudent.js"></script>
+</body>
+</html>
